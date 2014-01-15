@@ -15,13 +15,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- java ssh -->
-		<dependency>
-			<groupId>com.jcraft</groupId>
-			<artifactId>jsch</artifactId>
-			<version>0.1.50</version>
-		</dependency>
-
 		<!-- dom4j -->
 		<dependency>
 			<groupId>dom4j</groupId>
