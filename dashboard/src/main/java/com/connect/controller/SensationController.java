@@ -1,4 +1,4 @@
-package com.hysec.cas.dashboard.web.controller;
+package com.connect.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

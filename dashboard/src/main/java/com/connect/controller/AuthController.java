@@ -1,14 +1,19 @@
-package com.hysec.cas.dashboard.web.controller;
+package com.connect.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class AuthController {
 
+	@Autowired
+	private HibernateTemplate template;
+	
 	@RequestMapping(value="signin.html")
     public String gotoSigninPage(HttpServletRequest request,HttpServletResponse response){
 		
